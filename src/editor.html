@@ -1,0 +1,16 @@
+﻿<script type="text/javascript" src="/vendor/olcx/ueditor/editor/ueditor.config.js"></script>
+<script type="text/javascript" src="/vendor/olcx/ueditor/editor/ueditor.all.min.js"></script>
+<script type="text/javascript">
+    var ue = new baidu.editor.ui.Editor();
+    window.onload = function() {
+        // 渲染
+        ue.render("content");
+    }
+    ue.ready(function(){
+        //附件插入
+        //Typecho.insertFileToEditor = function (file, url, isImage) {
+        //   html = isImage ? "<img src=" + url + "  alt=" + file + "/>": "<a href=" + url + ">" + file + "</a>";
+        //    ue1.setContent(html, true);
+        //};
+    })
+</script>
