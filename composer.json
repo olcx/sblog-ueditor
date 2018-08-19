@@ -1,7 +1,7 @@
 {
   "name": "olcx/ueditor",
   "description": "the sblog editor.",
-  "type": "nb-framework",
+  "type": "sblog-editor",
   "license": "Apache-2.0",
   "homepage": "https://nb.cx",
   "keywords": [
